@@ -14,4 +14,4 @@ require.config(
 
 require ['backbone'], (Backbone)->
 	Backbone.history.start()
-	console.log 'abc'
+	console.log 'App Running!'

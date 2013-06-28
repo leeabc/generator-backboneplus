@@ -291,7 +291,7 @@ module.exports = function (grunt) {
                     paths: ['<%= yeoman.app %>/styles/less']
                 },
                 files:{
-                    "<%= yeoman.app %>/styles/main.css" : "<%= yeoman.app %>/styles/less/main.less"
+                    ".tmp/styles/main.css" : "<%= yeoman.app %>/styles/less/main.less"
                 }
             }
         },
