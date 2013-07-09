@@ -304,10 +304,10 @@ module.exports = function (grunt) {
                     name: 'Style Guide',
                 },
                 files: {
-                    "styleguide/kss/less": "<%= yeoman.app %>/styles/**/*.{less,css}",
+                    "styleguide/kss/less": "<%= yeoman.app %>/styles/less/main.less",
                 }
             }
-        }        
+        }
     });
 
     grunt.registerTask('createDefaultTemplate', function () {
